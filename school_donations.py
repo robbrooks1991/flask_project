@@ -11,8 +11,8 @@ app = Flask( __name__ )
 #DBS_NAME = 'donorsUSA'
 
 COLLECTION_NAME = 'projects'
-MONGO_URI = os.getenv('MONGODB_URI', 'mongodb://localhost:27017')
-DBS_NAME = os.getenv('MONGO_DB_NAME', 'donorsUSA')
+MONGO_URI = os.getenv('mongodb://<dbuser>:<dbpassword>@ds113282.mlab.com:13282/heroku_xjnbch68', 'mongodb://localhost:27017')
+DBS_NAME = os.getenv('heroku_xjnbch68', 'donorsUSA')
 
 
 @app.route( "/" )
