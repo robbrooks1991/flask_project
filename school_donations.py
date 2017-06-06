@@ -8,7 +8,7 @@ app = Flask( __name__ )
 
 #MONGODB_HOST = 'localhost'
 #MONGODB_PORT = 27017
-#DBS_NAME = 'donorsUSA'gf
+#DBS_NAME = 'donorsUSA'
 
 COLLECTION_NAME = 'projects'
 MONGO_URI = os.getenv('mongodb://root:Abbie!123@ds113282.mlab.com:13282/heroku_xjnbch68', 'mongodb://localhost:27017')
